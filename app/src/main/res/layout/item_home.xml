@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:src="@mipmap/ic_launcher_round">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textJudul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Judul"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textPengarang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengarang"
+                    android:textSize="10sp">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/stok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:text="Stok:">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/textStok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:text="stok">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>
